@@ -43,6 +43,11 @@ export const navigation = [
     title: "Education",
     url: "#education",
   },
+  {
+    id: "3",
+    title: "About",
+    url: "#about",
+  },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];

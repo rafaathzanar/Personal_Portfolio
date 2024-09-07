@@ -1,4 +1,4 @@
-import { curve,robot } from "../assets";
+import { curve } from "../assets";
 import Section from "./Section";
 import { BackgroundCircles, BottomLine, Gradient } from "./design/Hero";
 
@@ -16,7 +16,7 @@ const Hero = () => {
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
-      id="hero"
+      id="about"
     >
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
@@ -47,7 +47,7 @@ in learning emerging technologies, I am committed to applying them in practical,
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                  src={robot}
+               
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
                   width={1024}
                   height={490}
