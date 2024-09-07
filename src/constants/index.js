@@ -26,7 +26,8 @@ import {
   typescript,
   mysql,
 } from "../assets";
-
+import schoolimage from "../assets/education/school.jpg";
+import universityimage from "../assets/education/university.jpg";
 export const navigation = [
   {
     id: "0",
@@ -238,9 +239,9 @@ export const education = [
     title: "Zahira National College Kalmunai",
     text:
       "I successfully completed both my G.C.E. Ordinary Level and G.C.E. Advanced Level examinations at a prestigious and renowned institution, recognized for its excellence. ",
-    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    backgroundUrl: "./src/assets/education/card-1.svg",
     iconUrl: zcklogo,
-    imageUrl: zcklogo,
+    imageUrl: schoolimage,
     text0: "G.C.E Ordinary Level",
     text1: "G.C.E Advanced Level - Physical Science Stream",
     logo1: zcklogo,
@@ -254,7 +255,7 @@ export const education = [
     text1: "BSc. (Hons) in Information Techonology and Management",
     logo1: uomlogo,
     iconUrl: uomlogo,
-    imageUrl: uomlogo,
+    imageUrl: universityimage,
     light: true,
   },
 ];
