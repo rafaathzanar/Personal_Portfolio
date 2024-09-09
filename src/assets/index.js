@@ -55,6 +55,10 @@ import java from "./tech/java.svg";
 import javascript from "./tech/javascript.svg";
 import typescript from "./tech/typescript.svg";
 import mysql from "./tech/mysql.svg";
+import arduino from "./tech/arduino.svg";
+import cpp from "./tech/cpp.svg";
+import tailwind from "./tech/tailwind.svg";
+import materialui from "./tech/materialui.svg";
 
 import background from "./background.jpg";
 
@@ -110,4 +114,8 @@ export {
   mysql,
   background,
   robot,
+  arduino,
+  tailwind,
+  cpp,
+  materialui,
 };

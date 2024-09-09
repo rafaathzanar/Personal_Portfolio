@@ -25,6 +25,10 @@ import {
   spring,
   typescript,
   mysql,
+  tailwind,
+  cpp,
+  arduino,
+  materialui,
 } from "../assets";
 import schoolimage from "../assets/education/school.jpg";
 import universityimage from "../assets/education/university.jpg";
@@ -99,10 +103,10 @@ export const projects = [
     link:
       "https://www.linkedin.com/feed/update/urn:li:activity:7233994145491509248/",
     technologies: [
-      { name: "React", logo: "./src/assets/tech/react.svg" },
-      { name: "Spring", logo: "./src/assets/tech/spring.svg" },
-      { name: "MongoDb", logo: "./src/assets/tech/mongodb.svg" },
-      { name: "Tailwindcss", logo: "./src/assets/tech/tailwind.svg" },
+      { name: "React", logo: react },
+      { name: "Spring", logo: spring },
+      { name: "MongoDb", logo: mongodb },
+      { name: "MaterialUI", logo: materialui },
     ],
   },
 
@@ -116,10 +120,10 @@ export const projects = [
     link:
       "https://www.linkedin.com/feed/update/urn:li:activity:7233994145491509248/",
     technologies: [
-      { name: "React", logo: "./src/assets/tech/react.svg" },
-      { name: "Spring", logo: "./src/assets/tech/spring.svg" },
-      { name: "MongoDb", logo: "./src/assets/tech/mongodb.svg" },
-      { name: "Tailwindcss", logo: "./src/assets/tech/tailwind.svg" },
+      { name: "React", logo: react },
+      { name: "Spring", logo: spring },
+      { name: "MongoDb", logo: mongodb },
+      { name: "Tailwindcss", logo: tailwind },
     ],
   },
   {
@@ -133,8 +137,8 @@ export const projects = [
     link:
       "https://www.linkedin.com/feed/update/urn:li:activity:7233994145491509248/",
     technologies: [
-      { name: "C++", logo: "./src/assets/tech/cpp.svg" },
-      { name: "Arduino", logo: "./src/assets/tech/arduino.svg" },
+      { name: "C++", logo: cpp },
+      { name: "Arduino", logo: arduino },
     ],
   },
 ];
