@@ -82,13 +82,12 @@ export const projects = [
     date: "Sept 2024",
     status: "progress",
     imageUrl: project2,
-    link:
-      "https://www.linkedin.com/feed/update/urn:li:activity:7233994145491509248/",
+    link: "https://github.com/orgs/Playera-UOM/repositories",
     technologies: [
-      { name: "React", logo: "./src/assets/tech/react.svg" },
-      { name: "Spring", logo: "./src/assets/tech/spring.svg" },
-      { name: "MongoDb", logo: "./src/assets/tech/mongodb.svg" },
-      { name: "Tailwindcss", logo: "./src/assets/tech/tailwind.svg" },
+      { name: "React", logo: react },
+      { name: "Spring", logo: spring },
+      { name: "MongoDb", logo: mongodb },
+      { name: "Tailwindcss", logo: tailwind },
     ],
   },
   {
@@ -100,8 +99,7 @@ export const projects = [
     status: "done",
     imageUrl: transitgopic,
     colorful: true,
-    link:
-      "https://www.linkedin.com/feed/update/urn:li:activity:7233994145491509248/",
+    link: "https://github.com/orgs/Transitgo-UOM-Project/repositories",
     technologies: [
       { name: "React", logo: react },
       { name: "Spring", logo: spring },
@@ -117,8 +115,7 @@ export const projects = [
     date: "Sept 2024",
     status: "done",
     imageUrl: project3,
-    link:
-      "https://www.linkedin.com/feed/update/urn:li:activity:7233994145491509248/",
+    link: "https://rafaathzanar-portfolio.vercel.app",
     technologies: [
       { name: "React", logo: react },
       { name: "Spring", logo: spring },
@@ -134,8 +131,7 @@ export const projects = [
     date: "Aug 2022",
     status: "done",
     imageUrl: project4,
-    link:
-      "https://www.linkedin.com/feed/update/urn:li:activity:7233994145491509248/",
+    link: "https://github.com/rafaathzanar/Level-1-Hardware-Rooftop-Greenhouse",
     technologies: [
       { name: "C++", logo: cpp },
       { name: "Arduino", logo: arduino },
