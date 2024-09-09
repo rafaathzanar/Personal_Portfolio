@@ -63,7 +63,7 @@ const Projects = () => (
         
         <div className="mt-4">
           <p className="text-sm font-bold text-n-1">Technologies Used:</p>
-          <div className="flex gap-2 mt-2">
+          {/* <div className="flex gap-2 mt-2">
             {item.technologies.map((tech) => (
               <img
                 key={tech.name}
@@ -73,7 +73,7 @@ const Projects = () => (
                 title={tech.name} // Tooltip for the technology name
               />
             ))}
-          </div>
+          </div> */}
          </div>
                    <div style={{ display: "flex", flexDirection: "row", alignItems: "center" }}>
                         <a
