@@ -5,7 +5,7 @@ import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Expertises = () => {
   return (
-    <Section crosses id="expertise" className="pt-0 xl:py-12"> {/* Remove padding for extra large screens */}
+    <Section crosses id="expertise" className="pt-0 xl:py-12 pb-0"> {/* Remove padding for extra large screens */}
      <div className="mt-10"></div>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">

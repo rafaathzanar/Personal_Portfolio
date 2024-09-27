@@ -7,6 +7,8 @@ import Hero from "./components/Hero";
 
 import Projects from "./components/Projects";
 
+import Mailer from "./components/Mailer"
+
 
 const App = () => {
   return (
@@ -17,7 +19,7 @@ const App = () => {
         <Projects />
         <Education />
         <Expertises />
-       
+       <Mailer/>
     
   
         <Footer />

@@ -66,7 +66,7 @@ const Header = () => {
 
        
         <Button className="hidden lg:flex" href="#contact">
-          Talk To Me
+          Contact Me
         </Button>
 
         <Button

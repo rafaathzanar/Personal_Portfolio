@@ -53,6 +53,11 @@ export const navigation = [
     title: "About",
     url: "#about",
   },
+  {
+    id: "4",
+    title: "Contact",
+    url: "#contact",
+  },
 ];
 
 export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
