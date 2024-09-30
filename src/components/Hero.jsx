@@ -68,16 +68,20 @@ const Hero = () => {
                   height={490}
                   alt="My Pic"
                 />
-                <ScrollParallax isAbsolutelyPositioned>
-                  <Notification
-                    className="hidden absolute -right-[5.5rem] bottom-[15rem] w-[18rem] xl:flex"
-                    title="Hello! I am seeking for a Software Engineering Internship"
-                  />
-                  <Notification
-                    className="hidden absolute -left-[5.5rem] bottom-[1rem] w-[18rem] xl:flex"
-                    title="Let's Connect!"
-                  />
-                </ScrollParallax>
+             <ScrollParallax isAbsolutelyPositioned>
+  {/* First notification visible on all screens with adjusted size and position for small screens */}
+  <Notification
+    className="absolute right-[1rem] bottom-[2rem] w-[12rem] sm:-right-[5.5rem] sm:bottom-[15rem] sm:w-[18rem] flex"
+    title="Hello! I am seeking for a Software Engineering Internship"
+  />
+  
+  {/* Second notification hidden on small screens */}
+  <Notification
+    className="hidden sm:flex absolute -left-[5.5rem] bottom-[1rem] w-[18rem] xl:flex"
+    title="Let's Connect!"
+  />
+</ScrollParallax>
+
               </div>
             </div>
 
