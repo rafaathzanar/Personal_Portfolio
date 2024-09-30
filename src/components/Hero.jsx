@@ -71,7 +71,7 @@ const Hero = () => {
              <ScrollParallax isAbsolutelyPositioned>
   {/* First notification visible on all screens with adjusted size and position for small screens */}
   <Notification
-    className="absolute right-[1rem] bottom-[2rem] w-[12rem] sm:-right-[5.5rem] sm:bottom-[15rem] sm:w-[18rem] flex"
+    className="absolute right-[1rem] bottom-[2rem] w-[20rem] sm:-right-[5.5rem] sm:bottom-[15rem] sm:w-[18rem] flex"
     title="Hello! I am seeking for a Software Engineering Internship"
   />
   
